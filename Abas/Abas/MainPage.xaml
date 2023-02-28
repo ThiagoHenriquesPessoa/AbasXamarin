@@ -1,16 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            BarBackgroundColor="Black"
+            SelectedTabColor="Red"
+            UnselectedTabColor="White"
+            
              x:Class="Abas.MainPage">
 
     <ContentPage Title="Pagina01">
-        
+        <Label Text="Você está na página 01" FontSize="Header" TextColor="Red"/>
     </ContentPage>
+    
     <ContentPage Title="Pagina02">
-
+        <Label Text="Você está na página 02" FontSize="Header"/>
     </ContentPage>
+    
     <ContentPage Title="Pagina03">
-
+        <Label Text="Você está na página 03" FontSize="Header"/>
     </ContentPage>
 
 </TabbedPage>

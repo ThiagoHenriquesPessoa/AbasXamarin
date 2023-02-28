@@ -8,15 +8,16 @@
              x:Class="Abas.MainPage">
 
     <ContentPage Title="Pagina01">
-        <Label Text="Você está na página 01" FontSize="Header" TextColor="Red"/>
+        <Image Source="Naruto.jpg" Aspect="AspectFill" VerticalOptions="CenterAndExpand"/>
     </ContentPage>
     
     <ContentPage Title="Pagina02">
-        <Label Text="Você está na página 02" FontSize="Header"/>
+        <Image Source="NarutoShippuden.jpg" Aspect="AspectFill" VerticalOptions="CenterAndExpand"/>
     </ContentPage>
     
     <ContentPage Title="Pagina03">
-        <Label Text="Você está na página 03" FontSize="Header"/>
+        <Image Source="Naruto.jpg" Aspect="AspectFill" VerticalOptions="CenterAndExpand"/>
+        
     </ContentPage>
 
 </TabbedPage>

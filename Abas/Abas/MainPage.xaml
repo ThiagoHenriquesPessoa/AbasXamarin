@@ -4,10 +4,11 @@
             BarBackgroundColor="Black"
             SelectedTabColor="Red"
             UnselectedTabColor="White"
+            
              x:Class="Abas.MainPage">
 
     <ContentPage Title="Pagina01">
-        <Label Text="Você está na página 01" FontSize="Header"/>
+        <Label Text="Você está na página 01" FontSize="Header" TextColor="Red"/>
     </ContentPage>
     
     <ContentPage Title="Pagina02">

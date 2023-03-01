@@ -46,7 +46,6 @@
             
             <Image Source="Naruto.jpg" Aspect="AspectFill" VerticalOptions="CenterAndExpand"/>
         </StackLayout>
-
     </ContentPage>
 
 </TabbedPage>
